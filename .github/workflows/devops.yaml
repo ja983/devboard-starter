@@ -1,0 +1,16 @@
+name: DevOps Pipeline
+
+on:
+        push:
+
+jobs: 
+        code:
+                runs-on: ubuntu-latest
+                steps: 
+                        run: echo "Code"
+       # build:
+
+       # test:
+
+       # deploy: 
+
